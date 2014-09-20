@@ -3,12 +3,14 @@
 @import "mixins.less";
 
 body {
+    
     width: 100%;
     height: 100%;
     .fontSmall;
    
     color: @dark;
     background-color: @light;
+
 }
 
 html {
@@ -21,7 +23,7 @@ html {
 h2{
     margin: 0 0 35px;
    .fontMedium;
-    
+
 }
 h1,
 
@@ -267,7 +269,7 @@ a {
 .download-section {
     width: 100%;
     padding: 50px 0;
-    color: @primary;
+    color: @light;
     background: url(../img/truck.jpeg) no-repeat center center scroll;
     background-color: @dark;
     -webkit-background-size: cover;
@@ -390,7 +392,8 @@ background-image: none;
     z-index: 5;
     display: inline-block;
     color: #043B57;
-
+    
+    
 }
 
 
@@ -405,6 +408,9 @@ background-image: none;
 }
 
 
-.carousel-inner a{
- display: block;
+.logo-suffix{
+color: #000; 
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 21px;
 }
